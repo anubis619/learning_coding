@@ -27,5 +27,5 @@ while endYearPop < endSize:
     yearPassed = yearPassed + 1
 
 
-print(startPopulation, endSize, bornPop, dPop, endYearPop, yearPassed)
+# print(startPopulation, endSize, bornPop, dPop, endYearPop, yearPassed)
 print(f'Years: {yearPassed}')
