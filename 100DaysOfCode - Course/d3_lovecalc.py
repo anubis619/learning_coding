@@ -33,8 +33,10 @@ count_l = love_calc(concat_name, "l")
 count_o = love_calc(concat_name, "o")
 count_v = love_calc(concat_name, "v")
 
+print(count_t, count_r, count_u, count_e, count_l, count_o, count_v, count_e)
 sum_letters = str(count_t + count_r + count_u + count_e) + \
     str(count_l + count_o + count_v + count_e)
+print(sum_letters)
 sum_letters = int(sum_letters)
 
 if sum_letters < 10 or sum_letters > 90:
